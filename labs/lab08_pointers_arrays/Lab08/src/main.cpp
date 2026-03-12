@@ -2,6 +2,19 @@
 using namespace std;
 struct Node
 
+
+    // 1) н - 8.14, м - 456
+    // 2) указатели без адреса (обычных int), переменные перепутаны, после второго if путаница, т.к. на z указывает сразу две переменных+ неправильный вывод
+    //// Ззадение 2 
+    //void changeValues(int& er, int* ar) {
+   // er = 23;
+    //*ar = 45;
+    //int g = 15, h = 20;
+
+//changeValues(g, &h);
+//cout << g << h << endl;
+//return 0;
+
     //Для 4 задания
 {
     int data;
@@ -51,7 +64,7 @@ void Delete(Node*& Head) {
 // Задания 3-4
 
 int main() {
-    setlocale(LC_ALL, "Russian");
+    
 
     // Статический массив с индексами
     const int STATIC_SIZE = 10;
