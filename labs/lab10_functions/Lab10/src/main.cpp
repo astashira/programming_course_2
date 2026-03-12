@@ -1,5 +1,6 @@
 //1 задание (10_10.../10_9_...) 
 
+
 #include <iostream>
 #include <cstdlib>
 using namespace std;
