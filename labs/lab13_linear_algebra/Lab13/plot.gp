@@ -1,5 +1,4 @@
 set terminal wxt size 1000,800
-set title 'Intersection of two lines'
 set xlabel 'X'
 set ylabel 'Y'
 set grid
